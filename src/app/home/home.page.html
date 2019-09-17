@@ -1,0 +1,17 @@
+
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Home</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content padding>
+
+  <p>Barcode Result:</p>
+ <p>{{ barcodeData }}</p>
+  
+</ion-content>
+
+<ion-footer>
+    <ion-button color="success" expand="block" (click)="scan()">Scan barcode/QR Code</ion-button>
+</ion-footer>

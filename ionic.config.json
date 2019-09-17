@@ -1,5 +1,7 @@
 {
   "name": "leaveonline",
-  "integrations": {},
+  "integrations": {
+    "cordova": {}
+  },
   "type": "angular"
 }
